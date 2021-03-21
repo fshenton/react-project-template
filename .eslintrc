@@ -1,0 +1,29 @@
+{
+  "extends": [
+    "plugin:react/recommended", // Use React recommended rules
+    "plugin:prettier/recommended"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true // Allow JSX
+    },
+    "ecmaVersion": 2021, // Allows for the parsing of modern ECMAScript features
+    "sourceType": "module" // Allows for the use of imports
+  },
+  "rules": {
+    "prettier/prettier":["error", 
+      {
+        "endOfLine": "auto",
+        "semi": true,
+        "singleQuote": false,
+        "tabWidth": 2,
+        "trailingComma": "all"
+      }
+    ]
+  },
+  "settings": {
+    "react": {
+      "version": "detect" // Auto detect React version
+    }
+  }
+}
