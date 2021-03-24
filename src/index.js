@@ -1,8 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
-const App = () => {
-  return <div>You are entering my Dark Place</div>;
-};
+import { App } from "COMPONENTS/App";
 
 ReactDOM.render(<App />, document.getElementById("root"));
